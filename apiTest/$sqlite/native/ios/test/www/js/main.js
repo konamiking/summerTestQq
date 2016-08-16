@@ -1,0 +1,36 @@
+function test1() {
+	var sql = "CREATE TABLE person (_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR, xclass VARCHAR)";
+	var param = {
+		db : 'qq',
+		sql : sql
+	}
+	$sqlite.execSql(param);
+}
+
+function test2() {
+	var sql = "INSERT INTO person (name, xclass) VALUES('屈海滨','石化')";
+	var param = {
+		db : 'qq',
+		sql : sql
+	}
+	$sqlite.execSql(param);
+}
+
+function test3() {
+	var sql = "select * from person";
+	var param = {
+		"db" : 'qq',
+		"sql" : sql,
+		"pageIndex" : 0,
+		"pageSize" : 10
+	}
+	//var list=$sqlite.query(param);
+	var list = $sqlite.queryByPage(param);
+	alert(list);
+}
+
+function test4() {
+	alert(44)
+	var db1=$sqlite. exist(qq)
+	alert(db1);
+}
