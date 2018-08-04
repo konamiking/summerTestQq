@@ -1,5 +1,4 @@
 package com.yyuap.mkb.test;
-<<<<<<< HEAD
 
 //1、this is master java file 2018-08-04 10:19
 
