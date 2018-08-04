@@ -1,7 +1,6 @@
 package com.yyuap.mkb.test;
 
-//this is master java file 2018-08-04 10:15
-//2 this is master update
+//this is master java file 2018-08-04 10:07
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
